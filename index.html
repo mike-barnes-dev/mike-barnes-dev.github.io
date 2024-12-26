@@ -17,7 +17,7 @@
         }
         header {
             text-align: left;
-            padding: 4px 0;
+            padding: 0 0;
         }
         header h1 {
             margin: 0;
@@ -28,20 +28,23 @@
             font-size: 1.1em;
         }
         .section {
-            margin-top: 24px;
+            margin-top: 0px;
             border-bottom: 1px solid black;
         }
         .section h2 {
             margin-bottom: 10px;
-            font-size: 1.5em;
+            margin-top: 10px;
+            font-size: 20px;
         }
         .section ul {
             list-style-type: none;
             padding: 0;
+            margin-top: 10px;
         }
-        .section ul li {
-            margin: 5px 0;
+        li p {
+            margin-top: 8px;
         }
+        
         .flex {
             display: flex;
             justify-content: space-between;
@@ -59,13 +62,13 @@
             align-items: center;
         }
         .title {
-            font-size: 36px;
+            font-size: 30px;
         }
         .subTitle {
             font-size: 18px;
         }
         .cellphone {
-            font-size: 24px;
+            font-size: 20px;
         }
         .rightDate {
             float: right
@@ -78,9 +81,16 @@
         }
         .smallTopMargin {
             margin-top: 8px;
+            margin-bottom: 8px;
         }
         .noBorder {
             border: none;
+        }
+        .noMarginTop {
+            margin-top: 0px;
+        }
+        .margin10 {
+            margin: 10px 0px;
         }
     </style>
 </head>
@@ -88,21 +98,35 @@
     <div class="container">
         <header>
             <div class="flex topBorder">
-                <h1 class="title">Michael Barnes</h1>
+                <h1 class="title">Mike Barnes</h1>
                 <a class="link subTitle" href="mailto:mlbarnes@post.com">mlbarnes@post.com</a>
             </div>
             <div class="flex bottomBorder">
-                <p class="cellphone">0211316369</p>
-                <a class="link subTitle" href="https://www.linkedin.com/in/michael-barnes-143b321b5/">https://www.linkedin.com/in/michael-barnes-143b321b5/</a>
+                <p class="cellphone">+447424593178</p>
+                <a class="link subTitle" href="https://www.linkedin.com/in/mike-barnes-dev/">linkedin.com/in/mike-barnes-dev</a>
             </div>
         </header>
 
+        <div class="section smallTopMargin">
+            <p class="margin10">I am a full-stack software engineer with experience in mobile development. I love working in an agile team, learning from and sharing my knowledge with others. I have recently relocated to the UK, after traveling through Africa and Europe, and the United Kingdom.</p>
+        </div>
+
         <div class="section">
-            <h2>Profile</h2>
-            <p>I am a Software Engineer with experience in DevOps and Agile development. I am passionate about designing,
-                building, and maintaining quality software, and I love to learn new technologies.<br/><br/>
-                My strong communication skills help me work well in a software development team. I love helping and learning from
-                others, and I believe what makes a good team is being able to reflect and improve on the ways of working.</p>
+            <h2>Core Competencies</h2>
+            <ul>
+
+                
+                <li>
+                    <p class="smallBottomMargin"><strong>Languages: </strong>Java, Kotlin, TypeScript, JavaScript, SQL, Dataweave, MEL, Python, C#, Objective C, Swift, HTML, CSS
+                    </p>
+                    <p class="smallBottomMargin"><strong>Frameworks and Technologies: </strong>Spring, Hibernate, React, React Native, TransactSQL, Postgres, AWS, Git, Github Actions</p>
+                    <p class="smallBottomMargin"><strong>Tools and Platforms: </strong>Terraform, Docker, Github, Anypoint Platform, Jira, Mural, Confluence, Teams, Slack</p>
+                   
+                   
+                </li>
+                
+                
+            </ul>
         </div>
         
         <div class="section">
@@ -113,9 +137,18 @@
                     <i>FarmIQ Systems Ltd</i>
                     <p class="jobDescription">
 
-                        Full-stack web and mobile development, focusing on feature delivery and enhancing user experience.
-                        Contributed to planning and building new APIs, as well as the infrastructure for hosting and continuous delivery pipelines.
-                        Promoted to Technical Lead in 2023, taking on leadership responsibilities and guiding technical decisions.
+                        Full-stack web and mobile development within a high performing agile team, focusing on feature delivery and enhancing user experience.
+
+                        Promoted to Technical Lead in 2023, where I enjoyed mentoring, planning and sizing future work, 
+                        
+                        and collaborating across the business to deliver the best product for our customers.
+
+
+                        <!-- and guiding the technical direction such as the migration of our authentication to Auth0.
+
+
+                        Contributed to planning and building new APIs, as well as the infrastructure for hosting and continuous delivery pipelines. -->
+                        
                         
                         
                         <!-- Working in an agile team, implementing new features and improving development and delivery workflows. 
@@ -133,7 +166,7 @@
                     <p class="smallBottomMargin"><strong>Software Engineering Intern, iOS</strong> <strong class="rightDate">November 2018 – February 2019</strong></p>
                     <i>BlueJeans Network</i>
                     <p class="jobDescription">Member of agile development team working on the BlueJeans Video Conferencing iOS Application. Refactored
-                        features from large legacy codebase in Objective C to Swift. Implemented several quality of life bug fixes.</p>
+                        features from large legacy codebase in Objective C to Swift.</p>
                 </li>
                 
             </ul>
@@ -174,12 +207,12 @@
                     <p class="smallBottomMargin">
                         <strong>Jason Hanley</strong> - Head of Core Banking Platforms
                         <span class="rightDate">
-                            <a class="link" href="mailto:mlbarnes@post.com">mlbarnes@post.com</a>
+                            <a class="link" href="mailto:jason_hanley@hotmail.com">jason_hanley@hotmail.com</a>
                         </span>
                     </p>
 
                     <p class="smallTopMargin">
-                        <i>TSB New Zealand</i> <span class="rightDate">+642113135463</span>
+                        <i>TSB New Zealand</i> <span class="rightDate">+64211841914</span>
                     </p>
                     
                 </li>
