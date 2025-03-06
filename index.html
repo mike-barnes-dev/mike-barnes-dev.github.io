@@ -50,12 +50,12 @@
             justify-content: space-between;
         }
         .topBorder {
-            padding-top: 4px;
+            padding-top: 8px;
             border-top: 5px solid black;
         }
         .bottomBorder {
             border-bottom: 5px solid black;
-            padding-bottom: 4px;
+            padding-bottom: 6px;
         }
         .link {
             display: flex;
@@ -92,6 +92,15 @@
         .margin10 {
             margin: 10px 0px;
         }
+        .bulletList {
+            margin-top: 0px;
+            margin-bottom: 14px;
+        }
+        .bulletList li {
+            list-style-type: disc;
+            margin-left: 16px;
+           
+        }
     </style>
 </head>
 <body>
@@ -107,9 +116,9 @@
             </div>
         </header>
 
-        <div class="section smallTopMargin">
+        <!-- <div class="section smallTopMargin">
             <p class="margin10">I am a full-stack software engineer with experience in mobile development. I love working in an agile team, learning from and sharing my knowledge with others. I have recently relocated to the UK, after traveling through Africa and Europe, and the United Kingdom.</p>
-        </div>
+        </div> -->
 
         <div class="section">
             <h2>Core Competencies</h2>
@@ -117,10 +126,10 @@
 
                 
                 <li>
-                    <p class="smallBottomMargin"><strong>Languages: </strong>Java, Kotlin, TypeScript, JavaScript, SQL, Dataweave, MEL, Python, C#, Objective C, Swift, HTML, CSS
+                    <p class="smallBottomMargin"><strong>Languages: </strong>Java, Kotlin, TypeScript, JavaScript, jQuery, Angular, SQL, Dataweave, MEL, Python, C#, Objective C, Swift, HTML, CSS, XML, JSON.
                     </p>
-                    <p class="smallBottomMargin"><strong>Frameworks and Technologies: </strong>Spring, Hibernate, React, React Native, TransactSQL, Postgres, AWS, Git, Github Actions</p>
-                    <p class="smallBottomMargin"><strong>Tools and Platforms: </strong>Terraform, Docker, Github, Anypoint Platform, Jira, Mural, Confluence, Teams, Slack</p>
+                    <p class="smallBottomMargin"><strong>Frameworks and Technologies: </strong>Spring, Hibernate, React, React Native, TransactSQL, Postgres, AWS, Git, Github Actions, Liquibase, Terraform.</p>
+                    <p class="smallBottomMargin"><strong>Tools and Platforms: </strong>Docker, Github, Anypoint Platform, Jira, Mural, Confluence, Teams, Slack.</p>
                    
                    
                 </li>
@@ -135,14 +144,23 @@
                 <li>
                     <p class="smallBottomMargin"><strong>Software Developer, Technical Lead</strong> <strong class="rightDate">June 2021 - August 2024</strong></p>
                     <i>FarmIQ Systems Ltd</i>
-                    <p class="jobDescription">
+                    
 
-                        Full-stack web and mobile development within a high performing agile team, focusing on feature delivery and enhancing user experience.
-
-                        Promoted to Technical Lead in 2023, where I enjoyed mentoring, planning and sizing future work, 
-                        
-                        and collaborating across the business to deliver the best product for our customers.
-
+                        <!-- - Designed and built new APIs for mobile rebuild using Java, Kotlin, and Spring/Hibernate.
+                        - Implemented CI/CD using Github actions and terraform for hosting in AWS.
+                        - Updated legacy systems to improve user exerience using React, Angular, Jquery, JavaScript.
+                        - Promoted to Technical Lead in 2023, where I enjoyed mentoring, planning and sizing future work, 
+                        and collaborating across the business to deliver the best product for our customers
+                        - Delivered many features for the mobile rebuild in React Native.  -->
+                        <ul class="bulletList">
+                            <li>Developed and built new APIs for a mobile rebuild using Java, Kotlin, and Spring/Hibernate, using Liquibase for MS SQL database updates.</li>
+                            <li>Implemented CI/CD pipelines with GitHub Actions and Terraform, using Docker for containerisation and deploying to AWS.</li>
+                            <li>Modernised legacy systems to enhance user experience using React, Angular, jQuery, and JavaScript.</li>
+                            <li>Contributed to the mobile rebuild by delivering key features in React Native.</li>
+                            <li>Promoted Technical Lead in 2023 — where I enjoyed mentoring, planning and sizing future work.
+                                <!-- , and collaborating across the business to deliver the best product for our customers. -->
+                            </li>
+                        </ul>
 
                         <!-- and guiding the technical direction such as the migration of our authentication to Auth0.
 
@@ -159,14 +177,29 @@
                 <li>
                     <p class="smallBottomMargin"><strong>API Developer</strong><strong class="rightDate">August 2019 - June 2021</strong></p>
                     <i>New Zealand Post</i> 
-                    <p class="jobDescription">Agile development team member working on API simplification. Rebuilding monolithic legacy applications into
-                        microservices to simplify and improve performance of APIs.</p>
+                    
+                        <ul class="bulletList">
+                            <li>Rebuilt monolithic legacy applications into microservices to simplify and improve performance of APIs using Java and MuleSoft.</li>
+                            <li>Built dynamic label printing microservice in C# and built CI/CD pipeline using Azure Pipelines.</li>
+                        </ul>
+                        
+                        
+                        <!-- Agile development team member working on API simplification. Rebuilding monolithic legacy applications into
+                        microservices to simplify and improve performance of APIs. -->
+                    
+                   
                 </li>
                 <li>
                     <p class="smallBottomMargin"><strong>Software Engineering Intern, iOS</strong> <strong class="rightDate">November 2018 – February 2019</strong></p>
                     <i>BlueJeans Network</i>
-                    <p class="jobDescription">Member of agile development team working on the BlueJeans Video Conferencing iOS Application. Refactored
-                        features from large legacy codebase in Objective C to Swift.</p>
+                   
+                        <ul class="bulletList">
+                            
+                            <li>Member of agile development team working on the BlueJeans Video Conferencing iOS Application.</li>
+                            <li>Refactored features from large legacy codebase in Objective C to Swift.</li>
+                        
+                        </ul>
+                       
                 </li>
                 
             </ul>
